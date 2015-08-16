@@ -2,7 +2,12 @@
 class main extends spController
 {
 	function index(){
-		echo "Enjoy, Speed of PHP!";
 		$this->display("view/index.php");
+	}
+	function login(){
+		$this->display("view/login.php");
+	}
+	function signup(){
+		$this->display("view/signup.php");
 	}
 }

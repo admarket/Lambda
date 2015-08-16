@@ -1,3 +1,43 @@
-#logo{
-  font-size: 8px;
+body{
+  color: #555;
+  background-color: #fff;
+  font-family: “Andale Mono”, AndaleMono;“Lucida Sans Typewriter”, “Lucida Console”, Monaco, “Bitstream Vera Sans Mono”;
+}
+a.logo{
+  padding: 0px;
+  margin: 0px;
+  font-family:Rockwell, “Courier Bold”, Courier;
+}
+h1,h2,h3,h4,h5{
+  color: #555;
+  font-family: “Andale Mono”, AndaleMono;
+  font-weight: normal;
+}
+#nav{
+  margin: 0 auto;
+  font-size: 14px;
+  position: relative;
+}
+#logo-float{
+  position: absolute;
+  top:-16px;
+  left: 0px;
+}
+#top-float{
+  position: absolute;
+  top:10px;
+  right: 10px;
+}
+#nav a{
+  color: #666;
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: none;
+}
+#nav a:hover{
+  color: #666;
+  text-decoration: none;
+}
+#header{
+  border-bottom: solid 1px #ddd;
 }
